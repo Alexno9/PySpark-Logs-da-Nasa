@@ -9,15 +9,15 @@ Link para download dos dados:
 - Aug 04 to Aug 31, ASCII format, 21.8 MB gzip compressed, 167.8 MB: ftp://ita.ee.lbl.gov/traces/NASA_access_log_Aug95.gz
 
 Colunas no conjunto de dados:
-1 - Host/Hostname
-2 - Data do Log
-3 - Requisição (entre aspas)
-4 - Código do retorno HTTP
-5 - Total de Bytes Retornados
+- Host/Hostname
+- Data do Log
+- Requisição (entre aspas)
+- Código do retorno HTTP
+- Total de Bytes Retornados
 
 Foram Levantadas as seguintes informações utilizando PySpark e RDDs:
-1 - Quantidade de Hosts/Hostname únicos;
-2 - Total de errors 404 em todo o arquivo de log;
-3 - As 5 urls que mais causaram erro 404;
-4 - Quantidade de erros 404 por dia;
-5 - O total de bytes retornados em todo o arquivo de log.
+- Quantidade de Hosts/Hostname únicos;
+- Total de errors 404 em todo o arquivo de log;
+- As 5 urls que mais causaram erro 404;
+- Quantidade de erros 404 por dia;
+- O total de bytes retornados em todo o arquivo de log.
